@@ -52,7 +52,7 @@ public class JschUpload {
      * @return
      */
     public void upload(final String source, String target) {
-
+        System.out.println(source);
         File file = new File(source);
         if (!file.exists()) {
             System.out.println("upload !file.exists, source" + source);
